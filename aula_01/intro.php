@@ -13,7 +13,7 @@ var_dump($s1);
 
 $c1 = new Course();
 $c1->name = "Devstart";
-$c1->workload = 100;
+$c1->description = "Bootcamp em PHP";
 
 var_dump($c1);
 

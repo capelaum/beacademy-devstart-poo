@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 class Course
 {
   public $name;
-  public $workload;
+  public $description;
   public $price = 0;
 }
