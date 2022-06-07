@@ -6,5 +6,5 @@ class Course
 {
   public string $name;
   public string $description;
-  public float $price = 0;
+  public float $workload = 0;
 }
