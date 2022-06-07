@@ -4,6 +4,6 @@ declare(strict_types=1);
 
 class Student
 {
-  public $name;
-  public $cpf;
+  public string $name;
+  public string $cpf;
 }

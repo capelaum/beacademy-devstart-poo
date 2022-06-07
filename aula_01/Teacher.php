@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 class Teacher
 {
-  public $name;
-  public $wage;
-  public $disciplines = [];
+  public string $name;
+  public string $cpf;
+  public float $wage;
 }

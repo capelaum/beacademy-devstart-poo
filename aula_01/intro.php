@@ -18,9 +18,9 @@ $c1->description = "Bootcamp em PHP";
 var_dump($c1);
 
 $t1 = new Teacher();
-$t1->name = "Luis";
+$t1->name = "Alessando";
 $t1->wage = 5000;
-$t1->disciplines = ["PHP - Introdução", "PHP Orientado a objetos"];
+$t1->cpf = "123.123.123-12";
 
 var_dump($t1);
 
