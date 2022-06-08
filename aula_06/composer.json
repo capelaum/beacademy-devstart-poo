@@ -1,0 +1,21 @@
+{
+  "name": "theca/aula_06",
+  "description": "Devstart POO aula 06",
+  "minimum-stability": "stable",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Luís Vinicius Capelletto",
+      "email": "thecapellett@gmail.com"
+    }
+  ],
+  "require": {
+    "dompdf/dompdf": "^1.2"
+  }
+}
