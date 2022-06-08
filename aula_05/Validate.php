@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class Validate
+abstract class Validate
 {
   public static function cpf(string $cpf): bool
   {
