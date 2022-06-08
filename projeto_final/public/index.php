@@ -1,5 +1,11 @@
 <?php
 
-include "../vendor/autoload.php";
+ini_set('display_errors', 1);
 
-echo "Ola MVC";
+include __DIR__  . "/../vendor/autoload.php";
+
+use App\Controller\IndexController;
+
+$controller = new IndexController();
+$controller->indexAction();
+$controller->loginAction();
