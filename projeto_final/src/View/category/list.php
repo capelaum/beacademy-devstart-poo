@@ -1,1 +1,1 @@
-<h1>Lista de Categoria</h1>
+<h1>Lista de Categorias</h1>
